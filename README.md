@@ -1,4 +1,4 @@
-![image](https://github.com/gustavoatwork/FluxoCaixa/assets/5661530/34ba006b-569e-4f6e-9bc1-17f1813de1c1)# FluxoCaixa
+# FluxoCaixa
 <br>
 
 ##  ✅Pré-requisitos
