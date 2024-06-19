@@ -1,0 +1,16 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "FluxoCaixa": "Data Source=localhost;Initial Catalog=fluxocaixaTest;User Id=seuUsuario;Password=suaSenha;"
+  },
+  "JWTConfig": {
+    "JWTExpiration": "120",
+    "JWTSecret": "B29APFwcPyK4PpzbXgvOf43yWymeHd3U"
+  }
+}

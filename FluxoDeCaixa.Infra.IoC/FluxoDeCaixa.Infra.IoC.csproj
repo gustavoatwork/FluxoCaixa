@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FluxoDeCaixa.Api.Facade\FluxoDeCaixa.Api.Facade.csproj" />
+    <ProjectReference Include="..\FluxoDeCaixa.Infra.Infrastructure\FluxoDeCaixa.Infra.Infrastructure.csproj" />
+    <ProjectReference Include="..\FluxoDeCaixa.Infra.Repository.MongoDB\FluxoDeCaixa.Infra.Repository.MongoDB.csproj" />
+    <ProjectReference Include="..\FluxoDeCaixa.Infra.Repository.Mysql\FluxoDeCaixa.Infra.Repository.Mysql.csproj" />
+    <ProjectReference Include="..\FluxoDeCaixa.Services\FluxoDeCaixa.Services.csproj" />
+  </ItemGroup>
+
+</Project>
