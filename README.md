@@ -83,12 +83,27 @@ Após fazer o passo a passo acima, é só rodar a aplicação no Visual Studio. 
 ![image](https://github.com/gustavoatwork/FluxoCaixa/assets/5661530/1389fee5-2992-4878-95cb-5803eabe6a5b)
 <br>
 
-Feito isso, copie o token gerado e cole no Authorize dos microserviços de Caixa e Consolidado.
+Feito isso, copie o token gerado e cole no Authorize dos microserviços de Caixa e Consolidado. ![image](https://github.com/gustavoatwork/FluxoCaixa/assets/5661530/68e2ea9c-3afd-4f3f-a84f-74689cee6cd6)
+
 <br>
 <br>
 
 ![image](https://github.com/gustavoatwork/FluxoCaixa/assets/5661530/293ce110-ef8e-4d60-81a9-8073d3a34f65)
 
+
+## 2 - Execute o endpoint de Caixa
+
+Ele irá retornar o caixa. O caixa já foi criado ao rodar o update database.
+
+![image](https://github.com/gustavoatwork/FluxoCaixa/assets/5661530/d3ac3dc2-bc03-45d9-b01b-009d31206328)
+<br>
+
+<b>Copie o id do caixa, poís irá ser usado novamente</b>
+<br>
+
+```cmd
+5c4a3177-785e-44c0-b21b-fc54ddb64976
+```
 
 
 
